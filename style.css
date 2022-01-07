@@ -1,0 +1,269 @@
+.b {
+  margin: 0;
+}
+.left {
+  box-sizing: border-box;
+  width: 25%;
+  height: 100vh;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6c453;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.name {
+  margin-bottom: 0px;
+}
+
+.bio {
+  font-size: 20px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.img {
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: right;
+  /* border: 2px solid orangered; */
+}
+.img:hover {
+  height: 255px;
+  width: 255px;
+  box-shadow: 1px 1px 8px 10px #f0a04b;
+  transition: ease 200ms;
+}
+.button {
+  border-radius: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 7px solid grey;
+  width: 100%;
+  padding: 7.5px 0px;
+  font-family: Lato;
+  font-size: 15px;
+}
+.button:hover {
+  box-shadow: 1px 1px 8px 10px #f0a04b;
+  transition: ease-in 300ms;
+}
+.right {
+  width: 75%;
+  height: 100vh;
+  background-color: #fefbe9;
+  overflow: auto;
+  box-sizing: border-box;
+  margin-right: 0px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e1eedd;
+  padding: 15px;
+  margin: 0px;
+  box-shadow: 0px 1px 15px 0.5px grey;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #183a19;
+  padding: 12px;
+  margin: 0px 12px;
+}
+
+.menu a:hover {
+  background-color: #183a19;
+  color: white;
+  box-shadow: 1px 1px 5px rgb(196, 191, 191);
+  transition: all ease 300ms;
+}
+.neeraj {
+  display: flex;
+}
+h4 {
+  margin: 0px;
+  margin-top: 3.5px;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.middle {
+  text-align: center;
+  margin: 50px;
+}
+
+.middle p {
+}
+
+.a {
+  font-size: 65px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #183a19;
+  margin-top: 100px;
+}
+
+.cv {
+  text-decoration: none;
+  background-color: #f6c453;
+  padding: 10px 25px;
+  margin-right: 0px;
+  border-radius: 30px;
+  font-family: fantasyGeorgia, "Times New Roman", Times, serif;
+}
+
+.cv:hover {
+  background-color: #f0a04b;
+  box-shadow: 1px 1px 10px rgb(196, 191, 191);
+  transition: ease-in 300ms;
+}
+
+.skills {
+  margin: 50px;
+}
+
+.skills a {
+  text-decoration: none;
+  color: #183a19;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.skillimg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillimg img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-color: white;
+  border-radius: 5px;
+  margin: 25px;
+}
+
+.skillimg img:hover {
+  width: 210px;
+  height: 210px;
+  box-shadow: 5px 5px 25px 5px grey;
+  transition: ease-in-out 300ms;
+}
+
+.bottom {
+  background-color: #e1eedd;
+  /* border-top: solid 3px #4756df; */
+  padding: 15px 50px 15px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0px -1px 15px 0.5px grey;
+}
+
+.t {
+  font-family: "Roboto", sans-serf;
+  font-size: 30px;
+  color: #183a19;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.w {
+  font-family: "Roboto", sans-serf;
+  font-size: 20px;
+  color: #183a19;
+  text-align: center;
+}
+.input {
+  width: 60vw;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid #183a19;
+}
+.forms p {
+  font-size: 15px;
+  color: #183a19;
+  font-family: "Roboto", sans-serf;
+  font-weight: bold;
+}
+
+.submit {
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: white;
+  font-family: "Roboto", sans-serf;
+  font-size: 15px;
+  color: #183a19;
+  border: solid 2px #183a19;
+}
+
+.submit:hover {
+  background-color: #183a19;
+  color: white;
+  transition: ease-in 200ms;
+}
+
+@media only screen and (max-width: 500px) {
+  .left {
+    float: none;
+    width: 100%;
+    padding: 20px;
+  }
+  .right {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+  .a {
+    font-size: 35px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  .cv {
+    margin-left: 0px;
+  }
+
+  .skillimg {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.contact {
+  display: flex;
+  justify-content: center;
+}
+#contact {
+  text-decoration: none;
+  color: #183a19;
+}
+.contact a img {
+  margin-left: 15px;
+  width: 25px;
+  background-color: white;
+  margin-top: 12px;
+  border-radius: 50%;
+  opacity: 75%;
+  object-fit: cover;
+}
