@@ -1,3 +1,6 @@
+* {
+  scroll-behavior: smooth;
+}
 .b {
   margin: 0;
 }
@@ -246,6 +249,15 @@ h4 {
   }
 
   .skillimg {
+    display: flex;
+    flex-direction: column;
+  }
+  .topbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
   }
